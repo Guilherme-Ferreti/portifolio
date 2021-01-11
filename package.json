@@ -1,0 +1,16 @@
+{
+    "name": "portifolio",
+    "version": "1.0.0",
+    "description": "Portidólio de Guilherme Ferreti",
+    "author": {
+        "name": "Guilherme Ferreti de Souza"
+    },
+    "main": "index.html",
+    "scripts": {
+        "sass": "sass --watch assets/sass/app.scss:assets/css/app.css",
+        "build": "sass assets/sass/app.scss:assets/css/app.css --style=compressed"
+    },
+    "dependencies": {
+        "sass": "^1.32.2"
+    }
+}

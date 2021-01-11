@@ -1,0 +1,38 @@
+:root {
+  --bg-color-1: #F9F9F9;
+  --bg-color-2: #FAFAFA;
+  --bg-color-3: #FFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yu Gothic";
+}
+
+body, div, aside, footer, header, main, nav, section, ul, ol, li, button, figure, picture, hr {
+  display: flex;
+}
+
+body {
+  flex-direction: column;
+  background-color: var(--bg-color-1);
+}
+body > main {
+  min-height: calc(100vh - 80px);
+}
+
+@media (min-width: 1200px) {
+  body > main {
+    min-height: calc(100vh - 80px);
+  }
+}
+@font-face {
+  font-family: "Yu Gothic";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Yu Gothic Regular"), url("../fonts/yu-gothic/yugothib.ttf") format("ttf");
+}
+
+/*# sourceMappingURL=app.css.map */
